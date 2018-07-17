@@ -6,4 +6,4 @@ CREATE TABLE expenses (
 );
 
 ALTER TABLE expenses
-ADD CONSTRAINT positive_amount CHECK (amount >= 0.00);
+ADD CONSTRAINT positive_amount CHECK (amount >= 0.01);
